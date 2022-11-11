@@ -1,0 +1,19 @@
+.contenier {
+    padding: auto;
+    margin: auto;
+}
+
+#Nav{max-width: 900px;}
+
+#Main{max-width: 1200px;}
+
+#nav {
+    display: flex;
+    background-image: url(../img/clound.png);
+    background-size: contain;
+    justify-content: space-around;
+}
+
+li {list-style: none;}
+
+li a {text-decoration: none;}
