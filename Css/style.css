@@ -1,16 +1,34 @@
 #contenier {
     padding: auto;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
     max-width: 900px;
 }
 
-#nav {}
+main {
+    max-width: 1200px;
+}
 
-ul {
+#nav {
     display: flex;
     background-image: url(../img/clound.png);
     background-size: contain;
     justify-content: space-around;
+    animation: mymove 5s linear infinite;
+}
+
+@keyframes mymove {
+    0%,100% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
 }
 
 li {
