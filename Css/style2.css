@@ -73,7 +73,7 @@ a:hover {
     color: #f34221;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 500px) {
     .container-imagem {
         height: 180vh;
         width: 100vw;
