@@ -11,7 +11,7 @@ body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background: url('yoshi_fundojpg.jpg');
+    background: url('./img/yoshi_fundojpg.jpg');
     background-size: cover;
 }
 
@@ -26,7 +26,7 @@ body{
 .bloco_perfil{
     display:flex;
     justify-content: space-between;
-    background-image: url(estampa_egg.png);
+    background-image: url(./img/estampa_egg.png);
     max-width: 320px;
     max-height: 360px;    
     margin: 5px;
