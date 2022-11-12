@@ -8,15 +8,15 @@ function lancamento(msg){
 
 function lUS(){
     lancamento("05/10/1995");
-    ITENS.style.cssText = "background-image: url('../img/bandeira-estados-unidos.webp');background-size: cover;opacity:0.4";
+    ITENS.style.cssText = "background-image: url('../img/USA.webp');background-size: cover;opacity:0.4";
 }
 
 function lBR(){
     lancamento("novembro de 1995");
-    ITENS.style.cssText = "background-image: url('../img/bra.jpg');background-size: cover;opacity:0.4";
+    ITENS.style.cssText = "background-image: url('../img/BRA.jpg');background-size: cover;opacity:0.4";
 }
 
 function lEU(){
     lancamento("dezembro 1995");
-    ITENS.style.cssText = "background-image: url('../img/depositphotos_23583349-stock-photo-europe-flag.webp');background-size: cover;opacity:0.4";
+    ITENS.style.cssText = "background-image: url('../img/EUR.webp');background-size: cover;opacity:0.4";
 }

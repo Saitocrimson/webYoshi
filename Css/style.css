@@ -64,7 +64,7 @@ input[type=button] {
 #US {
     width: 60px;
     height: 40px;
-    background-image: url("../img/bandeira-estados-unidos.webp");
+    background-image: url("../img/USA.webp");
     background-size: cover;
     opacity: 1;
 }
@@ -72,7 +72,7 @@ input[type=button] {
 #EU {
     width: 60px;
     height: 40px;
-    background-image: url("../img/depositphotos_23583349-stock-photo-europe-flag.webp");
+    background-image: url("../img/EUR.webp");
     background-size: cover;
     opacity: 1;
 }
@@ -80,7 +80,7 @@ input[type=button] {
 #BR {
     width: 60px;
     height: 40px;
-    background-image: url("../img/bra.jpg");
+    background-image: url("../img/BRA.jpg");
     background-size: cover;
     opacity: 1;
 }
@@ -98,5 +98,5 @@ li a {
 }
 
 p {
-    font-size: 40px;
+    font-size: 20px;
 }
