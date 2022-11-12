@@ -11,33 +11,35 @@
 
 <body>
     <div id="contenier">
-        <header>
-            <div id="nav">
-                <ul>
-                    <li><a href="#">Teste1</a></li>
-                    <li><a href="#">Teste2</a></li>
-                    <li><a href="#">Teste3</a></li>
-                    <li><a href="quem_somos.html">Sobre Nos</a></li>
-                </ul>
-            </div>
-        </header>
+        <div id="body">
+            <header>
+                <div id="nav">
+                    <ul>
+                        <li><a href="#">Teste1</a></li>
+                        <li><a href="#">Teste2</a></li>
+                        <li><a href="#">Teste3</a></li>
+                        <li><a href="quem_somos.html">Sobre Nos</a></li>
+                    </ul>
+                </div>
+            </header>
 
-        <main>
-            <li>Lançamento eua: 05/10/1995 </li>
-            <li>Lançamento Brasil em: novembro de 1995</li>
-            <li>Lançamento Europa: dezembro 1995</li>
-            <p>A história começa com a cegonha levando dois bebês gêmeos para seus pais, porém ele é atacado por Kamek,
-                que
-                sequestra um dos bebês e o outro cai no mar. Kamek fica furioso pois só tem um bebe em vez de dois e
-                manda
-                seus
-                lacaios atras do outro.</p>
-            <p>O outro bebe cai em direção a ilha dos yoshis, caindo na costas de um deles. o Yoshi mão sabe ler então
-                resolvem
-                ir em direcao ao bilhete( castelo do Bowser).</p>
-        </main>
+            <main>
+                <div id="lancamento">
+                    <h3>Lançamento</h3>
+                    <div id="itens_lanc">
+                        <!--minha ideia era usar class="btn"-->
+                        <input type="button" id="US" onclick="lUS()">
+                        <input type="button" id="BR" onclick="lBR()">
+                        <input type="button" id="EU" onclick="lEU()">
+                    </div>
+                    <span id="info"></span>
+                </div>
+                <p>A história começa com a cegonha levando dois bebês gêmeos para seus pais, porém ele é atacado por Kamek,que sequestra um dos bebês e o outro cai no mar. Kamek fica furioso pois só tem um bebe em vez de dois e manda seus lacaios atras do outro.</p>
+                <p>O outro bebe cai em direção a ilha dos yoshis, caindo na costas de um deles. o Yoshi mão sabe lerentão resolvem ir em direcao ao bilhete( castelo do Bowser).</p>
+            </main>
+        </div>
     </div>
-    <script src="Js/script.js"></script>
+    <script src="./Js/index.js"></script>
 </body>
 
 </html>
