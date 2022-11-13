@@ -102,9 +102,27 @@ li a {
     text-decoration: none;
 }
 
-p {
-    font-size: 20px;
+#plot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:#f34221;
     padding: 3px;
     border: black 2px solid;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgba(240, 240, 240, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
 }
