@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url("../img/yoshi_fundo4.jpg");
     background-size: cover;
 }
@@ -17,6 +17,9 @@ header {
 
 main {
     max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 #body {
@@ -102,12 +105,12 @@ li a {
     text-decoration: none;
 }
 
-#plot{
+#plot {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#f34221;
+    background-color: #f34221;
     padding: 3px;
     border: black 2px solid;
 }
@@ -116,7 +119,7 @@ p {
     font-size: 20px;
 }
 
-footer{
+footer {
     background-color: rgba(240, 240, 240, 0.7);
     display: flex;
     flex-direction: column;
@@ -125,4 +128,44 @@ footer{
     position: fixed;
     width: 100%;
     left: 0;
+}
+
+@media (max-width: 850px) {
+    header {
+        max-width: 430px;
+    }
+
+    main {
+        max-width: 500px;
+    }
+
+    #nav {
+        background-size: cover;
+    }
+
+    #lancamento {
+        padding-bottom: 15px;
+    }
+
+    #lancamento h3 {
+        font-size: 20px;
+    }
+
+    #itens_lanc {
+        padding: 10px;
+    }
+
+    input[type=button] {
+        margin: 1.5px;
+        border: none;
+        background-color: transparent;
+    }
+
+    #info {
+        font-size: 20px;
+    }
+
+    footer {
+        position: static;
+    }
 }
