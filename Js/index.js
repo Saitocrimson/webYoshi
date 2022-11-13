@@ -8,15 +8,15 @@ function lancamento(msg){
 
 function lUS(){
     lancamento("05/10/1995");
-    ITENS.style.cssText = "background-image: url('../img/USA.webp');background-size: 50%;opacity:0.4";
+    ITENS.style.cssText = "border-bottom: 3px solid red";
 }
 
 function lBR(){
     lancamento("novembro de 1995");
-    ITENS.style.cssText = "background-image: url('../img/BRA.jpg');background-size: 50%;opacity:0.4";
+    ITENS.style.cssText = "border-bottom: 3px solid green";
 }
 
 function lEU(){
     lancamento("dezembro 1995");
-    ITENS.style.cssText = "background-image: url('../img/EUR.webp');background-size: 50%;opacity:0.4";
+    ITENS.style.cssText = "border-bottom: 3px solid blue";
 }
