@@ -7,16 +7,16 @@ function lancamento(msg){
 }
 
 function lUS(){
-    lancamento("05/10/1995");
+    lancamento("Outubro de 1995");
     ITENS.style.cssText = "border-bottom: 3px solid red";
 }
 
 function lBR(){
-    lancamento("novembro de 1995");
+    lancamento("Novembro de 1995");
     ITENS.style.cssText = "border-bottom: 3px solid green";
 }
 
 function lEU(){
-    lancamento("dezembro 1995");
+    lancamento("Dezembro 1995");
     ITENS.style.cssText = "border-bottom: 3px solid blue";
 }
