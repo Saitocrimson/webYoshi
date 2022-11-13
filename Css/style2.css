@@ -54,7 +54,12 @@ h1 {
     font-size: 80px;
     margin: 0px;
 }
-
+#seta_home{
+        position: absolute;
+        top:0px;
+        left:0px;
+    
+ }
 h2 {
     margin: 20px;
 }
@@ -84,7 +89,12 @@ a:hover {
         font-size: 65px;
         margin: 30px;
     }
-
+  #seta_home{
+        position: absolute;
+        top:50px;
+        left: -45px;
+    
+    }
     #container {
         display: flex;
         flex-direction: column;
