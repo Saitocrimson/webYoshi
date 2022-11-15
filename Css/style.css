@@ -1,108 +1,106 @@
 body {
-    background-image: url("../img/yoshi_fundo4.jpg");
-    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-color: cornflowerblue;
 }
 
-#contenier {
-    padding: auto;
-    margin: auto;
+#navBar {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: aquamarine;
+    flex-direction: row;
+    background-size: contain;
+    justify-content: space-around;
+    min-width: 100vw;
+    height: 100px;
 }
 
-header {
-    max-width: 860px;
+.itemNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.itemNav:hover {
+    transition: 2s;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 main {
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
-
-}
-
-#body {
-    display: flex;
-    flex-direction: column;
-}
-
-#nav {
-    display: flex;
-    background-image: url(../img/clound.png);
-    background-size: contain;
-    justify-content: space-around;
-    animation: mymove 5s linear infinite;
-}
-
-@keyframes mymove {
-
-    0%,
-    100% {
-        transform: translateY(-20px);
-    }
-
-    50% {
-        transform: translateY(10px);
-    }
+    justify-content: center;
+    max-width: 80vw;
+    min-height: 100%;
 }
 
 #lancamento {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
     padding-bottom: 30px;
-}
-
-#lancamento h3 {
-    font-size: 30px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #itens_lanc {
-    padding: 20px;
+    padding: 5px;
 }
 
 input[type=button] {
     margin: 3px;
     border: none;
     background-color: transparent;
+    width: 60px;
+    height: 40px;
+}
+
+#JA {
+    background-image: url("../img/JAP.png");
+    background-size: cover;
 }
 
 #US {
-    width: 60px;
-    height: 40px;
     background-image: url("../img/USA.webp");
     background-size: cover;
-    opacity: 1;
 }
 
 #EU {
-    width: 60px;
-    height: 40px;
     background-image: url("../img/EUR.webp");
     background-size: cover;
-    opacity: 1;
 }
 
 #BR {
-    width: 60px;
-    height: 40px;
     background-image: url("../img/BRA.jpg");
     background-size: cover;
-    opacity: 1;
 }
 
 #info {
     font-size: 30px;
 }
 
-li {
-    list-style: none;
-}
-
-li a {
-    text-decoration: none;
+section {
+    background-color: blue;
+    min-width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #plot {
@@ -110,62 +108,90 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f34221;
+    background-color: crimson;
     padding: 3px;
     border: black 2px solid;
+    max-width: 80vw;
+    min-height: 100px;
+
 }
 
-p {
+#plot h2 {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+#plot h3 {
+    font-size: 30px;
+}
+
+#plot p {
     font-size: 20px;
+    text-align: justify;
+    padding: 0px 90px;
+}
+
+img {
+    height: 200px;
+    width: 350px;
 }
 
 footer {
-    background-color: rgba(240, 240, 240, 0.7);
+    background-color: greenyellow;
+    width: 100vw;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    left: 0;
 }
 
-@media (max-width: 850px) {
-    header {
-        max-width: 430px;
+@media (max-width: 750px) {
+    a {
+        font-size: 10px;
     }
 
-    main {
-        max-width: 500px;
+    #navBar {
+        min-width: 50vw;
+        height: 50px;
     }
 
-    #nav {
-        background-size: cover;
+    .itemNav {
+        background-color: lightcoral;
+        width: 70px;
+        height: 30px;
     }
 
-    #lancamento {
-        padding-bottom: 15px;
+    .itemNav:hover {
+        background-color: red;
+        width: 70px;
+        height: 50px;
     }
 
-    #lancamento h3 {
+    section {
+        min-height: 45vh;
+    }
+
+    #plot {
+        min-height: 50px;
+    }
+
+    #plot h2 {
+        font-size: 22.5px;
+        padding-bottom: 3px;
+    }
+
+    #plot h3 {
+        font-size: 30px;
+    }
+
+    #plot p {
         font-size: 20px;
     }
 
-    #itens_lanc {
-        padding: 10px;
-    }
-
-    input[type=button] {
-        margin: 1.5px;
-        border: none;
-        background-color: transparent;
-    }
-
-    #info {
-        font-size: 20px;
-    }
-
-    footer {
-        position: static;
+    img {
+        height: 100px;
+        width: 175px;
     }
 }
