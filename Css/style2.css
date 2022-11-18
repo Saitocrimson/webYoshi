@@ -160,6 +160,14 @@ footer {
 
 
 }
+ #seta_home{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100px;
+    height:50px;
+
+}
 .perfil_1{
     max-width: 250px;
     max-height: 250px;
