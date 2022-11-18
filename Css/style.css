@@ -6,7 +6,6 @@ body {
 
 #navBar {
     display: flex;
-    background-color: aquamarine;
     flex-direction: row;
     background-size: contain;
     justify-content: space-around;
@@ -40,16 +39,7 @@ a {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-#nav {
-    display: flex;
-    flex-direction: row;
-    background-size: contain;
-    justify-content:space-around;
-   
-    min-width:100vw ;
-    height:100px;
 
-}
 .slot_1{
     display: flex;
     justify-content: center;
