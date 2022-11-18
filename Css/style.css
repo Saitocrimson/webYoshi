@@ -5,7 +5,7 @@ body {
 }
 #body_imagem{
     min-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: url('../img/yoshi_fundojpg.jpg');
     background-size: cover;
 }
