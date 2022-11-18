@@ -97,22 +97,30 @@ input[type=button] {
     background-image: url("../img/JAP.png");
     background-size: cover;
 }
-
+#JA:hover{
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 #US {
     background-image: url("../img/USA.webp");
     background-size: cover;
 }
-
+#US:hover{
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 #EU {
     background-image: url("../img/EUR.webp");
     background-size: cover;
 }
-
+#EU:hover{
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 #BR {
     background-image: url("../img/BRA.jpg");
     background-size: cover;
 }
-
+#BR:hover{
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 #info {
     font-size: 30px;
 }
