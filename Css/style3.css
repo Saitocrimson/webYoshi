@@ -3,6 +3,28 @@ body {
     margin: 0;
     background-color: cornflowerblue;
 }
+#nav {
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    background-size: contain;
+    justify-content:space-around;
+   
+    min-width:100vw ;
+    height:100px;
+
+}
+.slot_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+    width: 200px;
+    height: 50px;
+    margin:0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
 
 #navBar{
     display: flex;
