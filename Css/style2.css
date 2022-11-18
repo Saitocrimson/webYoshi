@@ -174,8 +174,8 @@ footer {
     margin: 10px;
 }
 h1{
-    position: relative;
-    top:-250px;
+    position: absolute;
+    top:-150px;
     margin: 0;
     font-size: 60px;
 }
