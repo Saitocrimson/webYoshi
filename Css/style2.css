@@ -84,7 +84,7 @@ a:hover {
 footer {
     background-color: rgba(0, 0, 0, 0.1);
     width: 100vw;
-    height: 100px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,7 @@ footer {
 
 @media (max-width: 850px) {
     .container-imagem {
-        height: 200vh;
+        height: 230vh;
         width: 90vw;
     }
 
@@ -126,8 +126,18 @@ footer {
         width: 890px;
         max-height: 250px;
         margin: 30px;
-        border-radius: 0;
-        
+        border-radius: 0
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 600px;
+        height: 70px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        position: absolute;
+        top:1180px;
     }
 }
 
@@ -149,8 +159,8 @@ footer {
     }
 
     .bloco_perfil {
-        max-width: 300px;
-        max-height: 500px;
+        max-width: 250px;
+        max-height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -159,7 +169,7 @@ footer {
     }
 
     .perfil_1 {
-        width: 590px;
+        width: 290px;
         max-height: 250px;
         margin: 10px;
     }
@@ -173,7 +183,7 @@ footer {
 
     h2 {
         position: relative;
-        left: 50px;
+        left: 30px;
         top: 10px;
     }
 
@@ -186,13 +196,13 @@ footer {
 
     .centraliza {
         position: relative;
-        left: 90px;
+        left: 70px;
         top: 10px;
     }
 
     footer {
         background-color: rgba(0, 0, 0, 0.1);
-        width: 100%;
+        width: 600px;
         height: 100px;
         display: flex;
         flex-direction: column;
