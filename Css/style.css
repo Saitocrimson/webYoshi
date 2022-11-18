@@ -126,7 +126,6 @@ input[type=button] {
 }
 
 section {
-    background-color: blue;
     min-width: 100vw;
     min-height: 90vh;
     display: flex;
@@ -170,7 +169,7 @@ img {
 }
 
 footer {
-    background-color: greenyellow;
+    background-color: rgba(0, 0, 0, 0.1);
     width: 100vw;
     height: 100px;
     display: flex;
