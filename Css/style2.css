@@ -149,7 +149,7 @@ footer {
 
     .bloco_perfil {
         max-width: 300px;
-        max-height: 900px;
+        max-height: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
