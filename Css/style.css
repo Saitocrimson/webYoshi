@@ -40,7 +40,40 @@ a {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
+#nav {
+    display: flex;
+    flex-direction: row;
+    background-size: contain;
+    justify-content:space-around;
+   
+    min-width:100vw ;
+    height:100px;
 
+}
+.slot_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+    width: 200px;
+    height: 50px;
+    margin:0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+
+.slot_1:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    margin:0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
 main {
     display: flex;
     flex-direction: column;
