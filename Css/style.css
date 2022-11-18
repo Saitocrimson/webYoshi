@@ -2,6 +2,10 @@ body {
     padding: 0;
     margin: 0;
     /*background-color: cornflowerblue;*/
+     min-width: 100vw;
+    height: 100vh;
+      background: url('../img/yoshi_fundojpg.jpg');
+    background-size: cover;
 
 }
 
