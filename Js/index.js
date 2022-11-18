@@ -2,7 +2,6 @@ const ITENS = document.getElementById("itens_lanc");
 
 function lancamento(msg){
     const SPAN = document.getElementById('info');
-    SPAN.style.cssText = ""
     SPAN.innerText=msg;
 }
 
