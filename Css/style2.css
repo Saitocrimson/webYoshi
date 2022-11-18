@@ -95,7 +95,6 @@ footer {
 @media (max-width: 850px) {
     .container-imagem {
         height: 230vh;
-        width: 90vw;
     }
 
     h1 {
@@ -137,14 +136,12 @@ footer {
         align-items: center;
         bottom: 0;
         position: absolute;
-        top:1180px;
     }
 }
 
 @media (max-width: 500px) {
     .container-imagem {
         height: 250vh;
-        width: 90vw;
     }
 
     #container {
