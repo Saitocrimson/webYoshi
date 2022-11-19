@@ -139,7 +139,7 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
     .container-imagem {
         height: 250vh;
     }
@@ -208,4 +208,4 @@ footer {
         position: absolute;
     }
 
-}
+}*/
