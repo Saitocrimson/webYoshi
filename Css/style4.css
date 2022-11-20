@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #98FB98;
+    background-color: darkmagenta;
     width: 200px;
     height: 50px;
     margin: 0;
@@ -26,7 +26,7 @@ body {
 }
 
 a {
-    color: black;
+    color: aliceblue;
     font-size: 20px;
     text-decoration: none;
 }
@@ -35,7 +35,6 @@ a {
     font-size: 20px;
     text-decoration: none;
 }
-
 #link_beta:hover{
     color: blue;
     font-size: 20px;
@@ -43,7 +42,7 @@ a {
 }
 .itemNav:hover {
     transition: 2s;
-    background-color: #008000;
+    background-color: red;
     width: 200px;
     height: 100px;
     border-bottom-right-radius: 50%;
@@ -53,31 +52,34 @@ a {
 #flex-continer {
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
-    min-height: 90vh;
-    display: flex;
+    min-width: 1000px;
+    min-height: 900px;
     justify-content: center;
     align-items: center;
     margin:20px;
-}
-
-#flex-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    min-height: 800px;
-    max-width: 900px;
-}
-
-.flex-section {
-    justify-content: space-around;
-    position: relative;
-    align-items: center;
-    font-size: 20px;
     color: #000000;
+    text-align: justify;
 }
+#fundo_continer{
+     background-color: rgba(240, 240, 240, 0.7);
+     max-width: 800px;
+   
+  
+}
+.flex-section {
+    justify-content: center;
+    /*position: relative;*/
+    align-items: center;
+    font-size: 20px;   
+       margin-left: 30px;
+       margin-right: 30px;
+  
+    
+    
+}
+
+
+
 
 #flex-column {
     display: flex;
@@ -133,11 +135,13 @@ footer {
     }
 
     .itemNav {
+        background-color: lightcoral;
         width: 70px;
         height: 30px;
     }
 
     .itemNav:hover {
+        background-color: red;
         width: 70px;
         height: 50px;
     }
