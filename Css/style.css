@@ -44,31 +44,6 @@ a {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-
-.slot_1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: darkmagenta;
-    width: 200px;
-    height: 50px;
-    margin:0;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-}
-
-
-.slot_1:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    width: 200px;
-    height: 100px;
-    margin:0;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-}
 main {
     display: flex;
     flex-direction: column;
@@ -196,13 +171,11 @@ footer {
     }
 
     .itemNav {
-         background-color: #98FB98;
         width: 70px;
         height: 30px;
     }
 
     .itemNav:hover {
-        background-color: red;
         width: 70px;
         height: 50px;
     }
