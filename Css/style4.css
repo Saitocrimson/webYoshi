@@ -153,4 +153,9 @@ footer {
     #fundo_continer {
         max-width: 300px;
     }
+    .classe3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 }
