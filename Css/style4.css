@@ -30,7 +30,16 @@ a {
     font-size: 20px;
     text-decoration: none;
 }
-
+#link_beta{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+#link_beta:hover{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
 .itemNav:hover {
     transition: 2s;
     background-color: red;
