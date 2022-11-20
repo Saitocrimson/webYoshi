@@ -26,7 +26,7 @@ body {
 }
 
 a {
-    color: aliceblue;
+    color: black;
     font-size: 20px;
     text-decoration: none;
 }
@@ -135,13 +135,11 @@ footer {
     }
 
     .itemNav {
-        background-color: #98FB98;
         width: 70px;
         height: 30px;
     }
 
     .itemNav:hover {
-        background-color: red;
         width: 70px;
         height: 50px;
     }
