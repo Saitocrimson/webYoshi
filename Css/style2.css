@@ -110,12 +110,12 @@ p {
     margin: 5px;
 }
 
-a {
+p a {
     text-decoration: none;
     color: darkblue;
 }
 
-a:hover {
+p a:hover {
     text-decoration: none;
     color: #f34221;
 }
