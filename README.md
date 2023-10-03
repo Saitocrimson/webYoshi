@@ -3,7 +3,7 @@
 * Finalidade: fazer 5 páginas que fossem interligadas uma as outras, contendo imagens, videos e texto;
 * Tema: Um site simples falando do jogo Yoshi Island;
 * Fonte dos textos(créditos aos respectivos autores):
-  * https://www.youtube.com/watch?v=zA65EX3zrqo
+  * https://www.youtube.com/watch?v=zA65EX3zrqo](https://www.youtube.com/watch?v=s1wVt1Tmsxc)
   * https://www.mariowiki.com/Super_Mario_World_2:_Yoshi%27s_Island
   * https://tcrf.net/Super_Mario_World_2:_Yoshi%27s_Island 
   * https://tcrf.net/Development:Super_Mario_World_2:_Yoshi%27s_Island/Sprites  
